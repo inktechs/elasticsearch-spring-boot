@@ -1,0 +1,21 @@
+
+GET http://localhost:8089/tests
+
+###
+
+
+POST http://localhost:8089/tests
+Content-Type: application/json
+
+{
+  "id": 1,
+  "timestamp": "2019-06-20T15:54:18.811730Z",
+  "className": "test1",
+  "methodName": "test1",
+  "testCase": "test1",
+  "result": "test1",
+  "parameters": "test1"
+}
+
+
+###
