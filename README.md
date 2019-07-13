@@ -17,5 +17,8 @@
 
 
 # Docker Run Command
+
+```bash
 docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.2.0
 docker run -p 5601:5601 -e "ELASTICSEARCH_URL='http://elasticsearch:9300'" docker.elastic.co/kibana/kibana:7.2.0
+```
