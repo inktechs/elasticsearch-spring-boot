@@ -1,10 +1,36 @@
 
-GET http://localhost:8089/tests
+###-------------------------------------------- Expose Local Environment APIs
+
+GET http://localhost:8089/person
 
 ###
 
 
-POST http://localhost:8089/tests
+POST http://localhost:8089/person
+Content-Type: application/json
+
+{
+  "id": 1,
+  "timestamp": "2019-06-20T15:54:18.811730Z",
+  "className": "order2",
+  "methodName": "order2",
+  "testCase": "order2",
+  "result": "order2",
+  "parameters": "order2"
+}
+
+###
+
+
+
+
+###-------------------------------------------- Expose Docker Container APIs
+GET http://localhost:18089/person
+
+###
+
+
+POST http://localhost:18089/person
 Content-Type: application/json
 
 {
@@ -17,5 +43,6 @@ Content-Type: application/json
   "parameters": "test1"
 }
 
-
 ###
+
+
