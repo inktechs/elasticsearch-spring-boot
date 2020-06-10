@@ -34,6 +34,6 @@ docker run --name kibana --link YOUR_ELASTICSEARCH_CONTAINER_NAME_OR_ID:elastics
 
 # Learn More
 
--[https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
--[https://www.elastic.co/guide/en/kibana/current/docker.html](https://www.elastic.co/guide/en/kibana/current/docker.html)
--[https://www.elastic.co/guide/en/logstash/current/docker.html](https://www.elastic.co/guide/en/logstash/current/docker.html)
+- [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
+- [Kibana](https://www.elastic.co/guide/en/kibana/current/docker.html)
+- [Logstash](https://www.elastic.co/guide/en/logstash/current/docker.html)
