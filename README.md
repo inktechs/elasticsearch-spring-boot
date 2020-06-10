@@ -1,22 +1,22 @@
+# Setup ELK Stack
 
-# Run docker compose from file
+## Run docker compose from file
 
     docker-compose -f "docker-compose.yml" up -d
     docker-compose up -d
     docker-compose -dwon
 
-# [Spring Boot Application Deploy in Docker](https://thepracticaldeveloper.com/2017/12/11/dockerize-spring-boot)
+## [Spring Boot Application Deploy in Docker](https://thepracticaldeveloper.com/2017/12/11/dockerize-spring-boot)
 
 
 
-
-# Service Expose
+## Service Expose
 - [http://localhost:9200/_nodes/http?pretty](http://localhost:9200/_nodes/http?pretty)
 - [http://localhost:9200](http://localhost:9200)
 - [http://localhost:5602](http://localhost:5602)
 
 
-# Docker Run Command
+## Docker Run Command
 
 ```bash
 docker run --name elasticsearch -p 9200:9200 -p 9300:9300  -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:6.8.1
@@ -32,7 +32,7 @@ docker run --name kibana --link YOUR_ELASTICSEARCH_CONTAINER_NAME_OR_ID:elastics
 
 
 
-# Learn More
+## Learn More
 
 - [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
 - [Kibana](https://www.elastic.co/guide/en/kibana/current/docker.html)
